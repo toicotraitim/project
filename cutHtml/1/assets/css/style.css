@@ -506,7 +506,7 @@ main .main__football-result .time {
     border-top: none;
     border-right: none;
     position: relative;
-    z-index: 10000;
+    z-index: 999;
 }
 .main__content .slider .slide-tab .item:hover,.main__content .slider .slide-tab .item:nth-child(1) {
     background: #252527;
@@ -607,8 +607,9 @@ main .main__football-result .time {
     margin-right: 4px;
     margin-bottom: 4px;
     border-radius: 4px;
+    transition: 0.3s linear;
 }
-.main__popular-tags .tag.active {
+.main__popular-tags .tag:hover {
     background: #e84a4a;
 }
 .main__post-of-the-day .post-thumbnail {
